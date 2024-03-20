@@ -22,7 +22,6 @@ app.use((err, req, res, next) => {
 });
 
 const port = process.env.PORT || 8080;
-console.log(port);
 
 app.listen(port, () => {
   console.log(`App is running on port ${port}`);
